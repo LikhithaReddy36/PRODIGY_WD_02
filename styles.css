@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.stopwatch {
+    text-align: center;
+}
+
+#display {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#startStopBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#resetBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+#lapBtn {
+    background-color: #008CBA;
+    color: white;
+}
+
+#laps {
+    margin-top: 20px;
+    text-align: left;
+}
